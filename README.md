@@ -18,6 +18,11 @@ Using the Command R Model from Cohere.
 pip install cohere
 ```
 
+Using `load_dataset` from `datasets` library for loading the QA dataset
+```bash
+pip install datasets
+```
+
 ### Parameters
 - Input: 
     - Question: `str`
@@ -37,7 +42,7 @@ pip install cohere
 │   ├── AlphaProQA.py          # .py equivalent of notebook with class created for importing
 │   ├── runner.py              # Running the model for saving the outputs to CSV files
 │   ├── plotter.py             # Plotting the result graphs
-│   └── evalSetGen.py          # Generate plots for performance insight
+│   └── evalSetGen.py          # Manually formed questions for further performance insight
 ├── results/
 │   ├── training_results.csv   # Output files
 │   └── plots_data.csv         # File containing quetion and answer metrics for plotting
@@ -59,7 +64,7 @@ Question Answering Logic:
   - Run the function and report answer or error accordingly.
 
 ## Results
-Summary of key results and performance metrics.
+The system is able to answer questions with high accuracy.
 
 ## Citation
 ```
