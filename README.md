@@ -37,15 +37,16 @@ pip install datasets
 ## Directory Structure
 ```
 ├── notebooks/
-│   └── AlphaProQA.ipynb       # Main notebook with code explaining approach
+│   ├── AlphaProQA.ipynb       # Main notebook with code explaining approach
+│   └── EvalPlot.ipynb         # Colab notebook used for generating and saving graphs
 ├── src/
 │   ├── AlphaProQA.py          # .py equivalent of notebook with class created for importing
 │   ├── runner.py              # Running the model for saving the outputs to CSV files
 │   ├── plotter.py             # Plotting the result graphs
 │   └── evalSetGen.py          # Manually formed questions for further performance insight
 ├── results/
-│   ├── training_results.csv   # Output files
-│   └── plots_data.csv         # File containing quetion and answer metrics for plotting
+│   ├── Results_1.csv          # Main output files along with related information
+│   └── graded_qa.csv          # Complexity graded questions
 └── README.md
 ```
 
