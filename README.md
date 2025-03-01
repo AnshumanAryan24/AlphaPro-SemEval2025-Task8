@@ -18,7 +18,7 @@ Using the Command R Model from Cohere.
 pip install cohere
 ```
 
-Using `load_dataset` from `datasets` library for loading the QA dataset
+Using `load_dataset` from `datasets` library for loading the QA dataset.
 ```bash
 pip install datasets
 ```
@@ -65,7 +65,7 @@ Question Answering Logic:
   - Run the function and report answer or error accordingly.
 
 ## Results
-The system is able to answer questions with high accuracy.
+The system is able to answer questions with average accuracy of 67.33%.
 
 ## Citation
 ```
