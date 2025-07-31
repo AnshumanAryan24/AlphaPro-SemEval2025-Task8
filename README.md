@@ -3,6 +3,7 @@
 ## Description
 This repository presents the code implementation for the approach by team AlphaPro at SemEval 2025 - Task 8.
 The approach is to eventually generate Python code for question-answering, given a dataset.
+Note: To be updated for latest changes.
 
 ## Table of Contents
 - [Requirements](#requirements)
